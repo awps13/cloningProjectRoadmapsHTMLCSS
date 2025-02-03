@@ -10,6 +10,7 @@
 body {
     color: #F5F5F5;
     background-color: #232830;
+
 }
 
 nav {
@@ -115,3 +116,48 @@ nav {
         bottom: 0;
     }
 }
+
+.page {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 5rem 0rem;
+
+        i {
+            color: grey;
+        }
+
+        .dua {
+            text-decoration: underline;
+            text-underline-offset: -1rem;
+            text-decoration-thickness: 2px;
+            text-decoration-color: rgb(255, 101, 101);
+
+            i {
+                color: rgb(255, 101, 101)
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 4rem;
+    margin-bottom: 10rem;
+    button {
+        border: none;
+        border-radius: 0.4rem;
+        background-color: rgb(80, 183, 231);
+        color: white;
+        padding: 0.3rem 0.8rem;
+    }
+}
+
+.footer {
+    display: flex;
+    gap: 1rem;
+}
+
