@@ -19,9 +19,10 @@ nav {
     font-size: 14px;
     font-weight: 400;
     padding: 2rem 4rem;
+
     a {
         color: white;
-        
+
     }
 }
 
@@ -37,6 +38,7 @@ nav {
     display: block;
     justify-content: center;
     text-align: center;
+
     img {
         width: 150px;
     }
@@ -44,6 +46,7 @@ nav {
 
 .title {
     font-size: 50px;
+
     i {
         color: rgb(255, 101, 101);
     }
@@ -59,34 +62,56 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 4rem;
+
     ul {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 1.3rem;
     }
+
     i {
         color: #F5F5F5;
     }
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto 2rem;
+}
+
 .card {
-    margin: auto;
+    margin: 1rem auto;
     color: black;
     background-color: white;
-    width: 15rem;
+    width: 13rem;
     font-size: 12px;
     padding: 1rem;
     border-radius: 1rem;
+
     img {
         width: 100%;
         height: auto;
         object-fit: cover;
         border-radius: 1rem;
     }
+
     ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .card_title {
+        margin: 1rem 0rem;
+    }
+
+    .card_deskripsi {
+        margin: 0rem 0rem 1rem 0rem;
+    }
+
+    .card_date {
+        bottom: 0;
     }
 }
